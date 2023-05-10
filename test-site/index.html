@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="CLB Tiếng Nhật trường Đại học Bách Khoa Hà Nội - Hanoi University of Science and Technology Japanese" />
+    <link rel="icon" href="images/ava-no-bg.png" type="image/x-icon" />
+    <link rel="stylesheet" 
+          href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
+          rel="stylesheet">
+
+    <title>Hedspi Nichibu</title>
+  </head>
+  <body>
+    <h1> CLB TIẾNG NHẬT HEDSPI NICHIBU </h1>
+
+    <img src="images/ava-no-bg.png" alt="Hedspi Nichibu Logo" />
+
+    <p> Là một câu lạc bộ do 1 lớp sinh viên Hedspi thuộc trường CNTT&TT Đại Học Bách Khoa Hà Nội thành lập và sắp trên đà giải thể :&gt;&gt; </p>
+   
+    <h3> 1. Danh sách các hoạt động </h3>
+    <ul>    <!--Danh sach 0 co thu tu-->
+        <li> Tết Oshougatsu </li>
+        <li> Giải Game online </li>
+    </ul>
+    
+    <h3> 2. Danh sách các thành viên </h3>
+    <ol>    <!--Danh sach co thu tu-->
+        <li> Chủ nhiệm: Mạc Văn An </li>
+        <li> PCN: Phạm Văn Be </li>
+        <li> PCN: Lê Phương Nam </li>
+    </ol>
+   
+    <h3> 3. Thông tin liên hệ </h3>
+    <ul>
+        <li> Facebook: <a href='https://www.facebook.com/hedspi.nichibu' title="Fanpage" target="_blank" >Hedspi Nichibu </a> </li>
+    </ul>
+
+    <!-- using the disabled attribute prevents the end user from entering text into the input box -->
+    <input type="text" disabled />
+
+    <!-- text input is allowed, as it doesn't contain the disabled attribute -->
+    <input type="text" />
+
+    <!-- scientific names -->
+<p>
+  The Ruby-throated Hummingbird (<i>Archilochus colubris</i>) is the most common
+  hummingbird in Eastern North America.
+</p>
+
+<!-- foreign words -->
+<p>
+  The menu was a sea of exotic words like <i lang="uk-latn">vatrushka</i>,
+  <i lang="id">nasi goreng</i> and <i lang="fr">soupe à l'oignon</i>.
+</p>
+
+<!-- a known misspelling -->
+<p>Someday I'll learn how to <u class="spelling-error">spel</u> better.</p>
+
+<!-- term being defined when used in a definition -->
+<dl>
+  <dt>Semantic HTML</dt>
+  <dd>
+    Use the elements based on their <b>semantic</b> meaning, not their
+    appearance.
+  </dd>
+</dl>
+
+<button>Change user</button>
+<!-- add javascript -->
+<script>document.addEventListener("DOMContentLoaded", () => {
+  function createParagraph() {
+    const para = document.createElement("p");
+    para.textContent = "You clicked the button!";
+    document.body.appendChild(para);
+  }
+
+  const buttons = document.querySelectorAll("button");
+
+  for (const button of buttons) {
+    button.addEventListener("click", createParagraph);
+  }
+});
+</script> 
+
+    </body>
+  </html>
